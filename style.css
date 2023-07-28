@@ -1,0 +1,445 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+.container{
+    width: 100%;
+    height: 100%;
+}
+.navbar{
+    width: 100%;
+    height: 99px;
+    background-color: blue;
+    display: flex;
+}
+.logo{
+    display: flex;
+    width: 200px;
+    height: 79px;
+    justify-content: center;
+    align-items: center;
+}
+span{
+    color:azure;
+    font-size: 34px;
+    letter-spacing: 9px;
+}
+.navlinks{
+    display: flex;
+    list-style-type: none;
+    width: 890px;
+    height: 89px;
+    justify-content: center;
+    align-items: center;
+    margin-left: 39%;
+}
+.navlinks li a{
+    font-size: 25px;
+    padding: 10px;
+    color: aliceblue;
+}
+.navlinks li a:hover{
+    color:greenyellow;
+}
+span{
+    width: 55px;
+    color: aliceblue;
+}
+button{
+    background-color: rgb(56, 236, 7);
+    width: 15%;
+    padding: 15px;
+    font-size: 22px;
+    color: black;
+}
+button:hover{
+    background-color: rgb(64, 0, 255);
+    color: black;
+}
+.main-container{
+    width: 100%;
+    height:100%;
+}
+.tittle{
+    width: 100%;
+    height: 70px;
+    text-align: center;
+    color: black;
+    margin-top: 5px;
+}
+.tittle span{
+    color: aliceblue;
+    background: linear-gradient(red,blue,green);
+}
+.android{
+    width:310px;
+    height: 150px;
+    display: flex;
+    justify-content: center;
+    margin-top: 3%;
+}
+.para1{
+    width:310px;
+    height: 150px;
+}
+.readbtn1{
+    width: 310px;
+    height: 70px;
+    display: flex;
+    justify-content: center;
+}
+.btn1{
+    width: 135px;
+    height: 50px;
+    border: none;
+    font-size: 15px;
+    background-color: blue;
+    padding: 10px;
+    border-radius: 10px;
+}
+.box2{
+    background-color: rgb(245, 248, 250);
+}
+.sql{
+    width:310px;
+    height: 150px;
+    display: flex;
+    justify-content: center;
+    margin-top: 3%;
+}
+.para2{
+    width:310px;
+    height: 150px;
+}
+.readbtn2{
+    width: 310px;
+    height: 70px;
+    display: flex;
+    justify-content: center;
+}
+.btn2{
+    width: 125px;
+    height: 50px;
+    border: none;
+    font-size: 20px;
+    background-color: blue;
+    padding: 10px;
+    border-radius: 10px;
+}
+.boxcontain{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.mainbox{
+    width:89%;
+    height: 880px;
+    border: 2px solid grey;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    gap: 5px;
+}
+.boxes{
+    border: 2px solid gray;
+    width: 310px;
+    height: 400px;
+    margin: 4%;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+}
+.boxes:hover{
+    background-color: blue;
+    color: aliceblue;
+}
+.cbtn:hover{
+    background-color: gray;
+    color: aliceblue;
+}
+.box1{
+    background-color: aliceblue;
+   
+}
+.android{
+    width:310px;
+    height: 150px;
+    display: flex;
+    justify-content: center;
+    margin-top: 3%;
+}
+.para1{
+    width:310px;
+    height: 150px;
+}
+.readbtn1{
+    width: 310px;
+    height: 70px;
+    display: flex;
+    justify-content: center;
+}
+.btn1{
+    width: 135px;
+    height: 50px;
+    border: none;
+    font-size: 20px;
+    background-color: blue;
+    padding: 10px;
+    border-radius: 10px;
+}
+.box2{
+    background-color: rgb(245, 248, 250);
+}
+.sql{
+    width:310px;
+    height: 150px;
+    display: flex;
+    justify-content: center;
+    margin-top: 3%;
+}
+.para2{
+    width:310px;
+    height: 150px;
+}
+.readbtn2{
+    width: 310px;
+    height: 70px;
+    display: flex;
+    justify-content: center;
+}
+.btn2{
+    width: 125px;
+    height: 50px;
+    border: none;
+    font-size: 20px;
+    background-color: blue;
+    padding: 10px;
+    border-radius: 10px;
+}
+.box3{
+    background-color: rgb(245, 248, 250);
+}
+.php {
+    width:310px;
+    height: 150px;
+    display: flex;
+    justify-content: center;
+    margin-top: 3%;
+}
+.para3{
+    width:310px;
+    height: 150px;
+}
+.readbtn3{
+    width: 310px;
+    height: 70px;
+    display: flex;
+    justify-content: center;
+}
+.btn3{
+    width: 125px;
+    height: 65px;
+    border: none;
+    font-size: 20px;
+    background-color: blue;
+    padding: 10px;
+    border-radius: 10px;
+}
+.box4{
+    background-color: rgb(245, 248, 250);
+}
+.python{
+    width:310px;
+    height: 150px;
+    display: flex;
+    justify-content: center;
+    margin-top: 3%;
+}
+.para4{
+    width:310px;
+    height: 150px;
+}
+.readbtn4{
+    width: 310px;
+    height: 70px;
+    display: flex;
+    justify-content: center;
+}
+.btn4{
+    width: 125px;
+    height: 65px;
+    border: none;
+    font-size: 20px;
+    background-color: blue;
+    padding: 10px;
+    border-radius: 10px;
+}
+.box5{
+    background-color: rgb(245, 248, 250);
+}
+.books{
+    width:310px;
+    height: 150px;
+    display: flex;
+    justify-content: center;
+    margin-top: 3%;
+}
+.para5{
+    width:310px;
+    height: 150px;
+}
+.readbtn5{
+    width: 315px;
+    height: 70px;
+    display: flex;
+    justify-content: center;
+}
+.btn5{
+    width: 125px;
+    height: 59px;
+    border: none;
+    font-size: 20px;
+    background-color: blue;
+    padding: 10px;
+    border-radius: 10px;
+}
+body{
+    background: linear-gradient(rgb(235, 235, 240),rgb(239, 247, 239),yellow);
+    position: relative;
+}
+.container{
+    width: 100%;
+    height: 100%;
+}
+.box6{
+    background-color: rgb(245, 248, 250);
+}
+.html{
+    width:310px;
+    height: 150px;
+    display: flex;
+    justify-content: center;
+    margin-top: 3%;
+}
+.para6{
+    width:310px;
+    height: 150px;
+}
+.readbtn6{
+    width: 310px;
+    height: 70px;
+    display: flex;
+    justify-content: center;
+}
+.btn6{
+    width: 125px;
+    height: 50px;
+    border: none;
+    font-size: 20px;
+    background-color: blue;
+    padding: 10px;
+    border-radius: 10px;
+}
+.footer-container{
+    width: 100%;
+    height: 100%;
+    }
+    .foot{
+        width: 100%;
+        height: 450px;
+        background-color:rgb(8, 10, 11);
+        border-radius: 100px 100px 0 0px;
+        display: flex;
+        justify-content: center;
+        
+    }
+    .fotercontain{
+        width: 1000px;
+        height: 450px;
+       
+        display: flex;
+    }
+    .boxf{
+        width: 400px;
+        height:350px;    
+    }
+    .boxf1{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .tithead{
+        width: 270px;
+        height: 200px;
+      
+    }
+    .tithead span{
+        font-size: 45px;
+        color:rgb(249, 239, 239);
+    }
+    .paraff p{
+        margin-top: 3%;
+        font-size: 18px;
+        color: aliceblue;
+        letter-spacing: 2px;
+    }
+    .offadd{
+        width: 270px;
+        height: 200px;
+        margin-top: 6%;
+    
+    }
+    .offadd span{
+        font-size: 25px;
+        color:rgb(248, 240, 240);
+        text-decoration: underline;
+    }
+    .boxf2{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    
+    .ph{
+        width: 270px;
+        height: 100px;
+        margin-top:10%;
+    }
+    .ph span{
+        font-size: 30px;
+        color: rgb(14, 168, 245);
+        text-decoration: underline;
+    }
+    .boxf3{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .new{
+        width: 270px;
+        height: 200px;
+        margin-top: 7%;
+    
+    }
+    .navlinksf{
+        list-style-type: none;
+        display: flex;
+        margin-top: 4%;
+    
+    }
+    .new span{
+        font-size: 29px;
+        color: rgb(255, 18, 18);
+        text-decoration: underline;
+    }
+    .navlinksf li a{
+        padding: 10px;
+        font-size: 20px;
+        color: rgb(250, 12, 12);
+    }
+    .navlinksf li a:hover{
+        color: red;
+    }
